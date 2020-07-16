@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Design Four</title>
+	<style>
+		h4{margin: 0px;padding: 0px;color: white;font-size: 25px;}
+		ul{margin: 0px;padding: 0px;}
+		ul li{list-style-type: none;margin-bottom: 18px;}
+		ul li:last-child{margin-bottom: 0px;}
+		ul li a{text-decoration: none;}
+		ul.ul2{float: right;}
+		ul.ul2 li{margin-bottom: 24px;}
+		ul.ul2 li:last-child{margin-bottom: 0px;}
+		.fasttd{width: 50%;}
+		.fasttd .h4de{float: right;}
+		.Table{width: 500px;}
+		.ndtableOne{width: 35%;}
+		.ndtableTwo{width: 55%;}
+		.ndtableThree{width: 10%;}
+		.mainImage{height: 130px;width: 130px;border: 2px solid pink;border-radius: 5px;padding: 5px;}
+
+		@media only screen and (max-width: 600px) {
+			ul.ul2{text-align: center;float: none;margin-top: 10px;margin-right: 10px;}
+			.Table{width: 350px;overflow:hidden;display: block;}
+			.fasttd{width: 350px;display: block;}
+			.fasttd .h4de{float: none;}
+			.fasttd h4{font-size: 20px; text-align: center;}
+			.ndtableOne{width: 350px;display: block;}
+			.ndtableTwo{width: 350px;display: block;}
+			.ndtableThree{width: 350px;display: block;}
+			ul.ul2 li{display: inline-block;}
+			.mainImage{margin:0px auto;display: block; margin-bottom: 15px;}
+			ul li{text-align: center;margin-bottom:5px;}
+
+		}
+	</style>
+</head>
+<body>
+
+	<table class="Table" border="0" cellspacing="0" cellpadding="0"  style="border: 2px solid red;box-shadow: 0px 0px 10px #bbbbbb;margin: 100px auto;border-radius: 4px;">
+		<tr>
+			<td>
+				<table class="Table" border="0" cellspacing="0" cellpadding="0" style="background-color: red;padding: 10px;">
+					<tr>
+						<td class="fasttd">
+							<h4>Your Name</h4>
+						</td>
+						<td class="fasttd">
+							<h4 class="h4de" >Designation</h4>
+						</td>
+					</tr>
+				</table>
+			</td>
+			<td>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<table class="Table" border="0" cellspacing="0" cellpadding="0" style="padding: 10px;">
+					<td class="ndtableOne" >
+						<img src="https://i.postimg.cc/mg34xSBw/profile-One.png" class="mainImage" alt="">
+					</td>
+					<td class="ndtableTwo"  valign="top">
+						<ul>
+							<li><a style="color:black;font-size: 20px;" href=""><span style="color: red;font-size: 20px;font-weight: bold;">M.</span> +123 456 789</a></li>
+							<li><a style="color:black;font-size: 20px;" href=""><span style="color: red;font-size: 20px;font-weight: bold;">A.</span> 45 <span style="color: red;">Your Address</span> USA</a></li>
+							<li><a style="color:black;font-size: 20px;" href=""><span style="color: red;font-size: 20px;font-weight: bold;">E.</span> Your<span style="color: red;">Email</span>@gmail.com</a></li>
+							<li><a style="color:black;font-size: 20px;" href=""><span style="color: red;font-size: 20px;font-weight: bold;">W.</span> www.<span style="color: red;">YourWebsite</span>.com</a></li>
+						</ul>
+					</td>
+					<td  class="ndtableThree" valign="top">
+						<ul class="ul2">
+							<li><a href=""><img src="https://i.postimg.cc/RVMBKDfz/facebook-3.png" width="30px" alt=""></a></li>
+							<li><a href=""><img src="https://i.postimg.cc/4y1RjzDM/instagram-sketched-3.png" width="30px" alt=""></a></li>
+							<li><a href=""><img src="https://i.postimg.cc/J4PWq5cH/linkedin-3.png" width="30px" alt=""></a></li>
+						</ul>
+					</td>
+				</table>
+			</td>
+		</tr>
+	</table>
+	
+</body>
+</html>
