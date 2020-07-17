@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Design Four</title>
+	<style>
+		*{margin: 0px;padding: 0px;}
+		.Table{width: 500px;border: 2px solid red;box-shadow: 0px 0px 10px #bbbbbb;margin: 100px auto;border-radius: 4px;padding: 10px;}
+
+		.mainImage{max-width: 130px;border:2px solid pink;border-radius: 5px;}
+		.fasttd{width: 32%;}
+		.fasttd1{width: 68%;}
+		.ndtd{width: 300px;}
+		.ndtd2{width: 170px;}
+		h3{text-transform: uppercase;color: red;font-size: 20px;}
+		h5{float: right;color: gray;}
+		ul{margin-top: 10px;margin-bottom: 0px;}
+		ul li{list-style-type: none;margin-bottom: 10px;}
+		ul li:last-child{margin-bottom: 0px;}
+		ul li a{text-decoration: none;color: black;font-size: 20px;}
+		ul.ul2{margin-top: 7px;margin-bottom: 0px;}
+		ul.ul2 li{display: inline-block;margin-right: 4px;margin-bottom: 0px;}
+
+		@media only screen and (max-width: 600px) {
+			.Table{width: 350px;}
+			.fasttd , .fasttd1, .ntd3{width: 100%;display: block;text-align: center;}
+			.ndtd, .ndtd2 , .ntd3 {width:340px;text-align: center;display: block;}
+			h5{float: none;}
+		}
+	</style>
+</head>
+<body>
+
+	<table class="Table" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<!-- left -->
+			<td class="fasttd">
+				<img class="mainImage" src="https://i.postimg.cc/VLFmwGs6/profile-One.png" alt="">
+				<ul class="ul2">
+					<li><a href=""><img src="https://i.postimg.cc/RVMBKDfz/facebook-3.png" width="20px" alt=""></a></li>
+					<li><a href=""><img src="https://i.postimg.cc/4y1RjzDM/instagram-sketched-3.png" width="20px" alt=""></a></li>
+					<li><a href=""><img src="https://i.postimg.cc/J4PWq5cH/linkedin-3.png" width="20px" alt=""></a></li>
+					<li><a href=""><img src="https://i.postimg.cc/wMP6jsX0/twitter.png" width="20px" alt=""></a></li>
+					<li><a href=""><img src="https://i.postimg.cc/y8pw4zTy/tumblr.png" width="20px" alt=""></a></li>
+				</ul>
+			</td>
+			<!-- right -->
+			<td class="fasttd1" valign="top">
+				<!-- top -->
+				<table border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td class="ndtd">
+							<h3>Dabriya Alex Riya</h3>
+						</td>
+						<td class="ndtd2">
+							<h5>UI/UX Designer</h5>
+						</td>
+					</tr>
+				</table>
+				<table border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td class="ntd3">
+							<ul>
+								<li><a href=""><img src="https://i.postimg.cc/2SZ6DdtX/phone-2.png" width="15px" alt=""> +123 456 789</a></li>
+								<li><a href=""><img src="https://i.postimg.cc/25N58bRj/mail-2.png" width="15px" alt=""> Your<span style="color:red">Email</span>@gmail.com</a></li>
+								<li><a href=""><img src="https://i.postimg.cc/7L1ZCHw3/website-design.png" width="15px" alt=""> www.<span style="color:red;">yourwebsite</span>.com</a></li>
+								<li><a href=""><img src="https://i.postimg.cc/D0SkpFMH/pin.png" width="15px" alt=""> 78 <span style="color:red;">Your Address</span> USA</a></li>
+							</ul>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	
+</body>
+</html>
